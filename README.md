@@ -1,15 +1,27 @@
-# ShieldFi Front-end
+# ShieldFi Frontend
 
-Minimal React front-end to interact with ShieldFi MVP:
+This directory contains the minimal frontend interface for interacting with the ShieldFi protocol.
 
-- Connect wallet (MetaMask)
-- Mint PolicyNFT
-- Simulate coverage payout
+The frontend provides a simple interface that allows users to:
 
-## How to Run
+• Connect their wallet  
+• Purchase coverage policies  
+• View Policy NFTs  
+• Submit claims  
+• Stake liquidity as a coverage provider  
 
-1. `npm install`
-2. `npm start`
-3. Connect MetaMask to Polygon Mumbai testnet
-4. Replace contract addresses in components
-5. Enjoy testing
+The interface communicates with the ShieldFi smart contracts including:
+
+- PolicyNFT
+- CoveragePool
+- ClaimManager
+- PremiumManager
+
+This frontend is designed as a lightweight MVP for testnet experimentation and developer testing before a full production interface is built.
+
+Future improvements may include:
+
+- Risk dashboard integration
+- Real-time protocol risk scores
+- Coverage marketplace
+- Liquidity provider analytics
